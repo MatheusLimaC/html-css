@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+</head>
+<body>
+    <h1>Treinando formulários</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <p>
+            <label for="iname">Nome: <input placeholder="Nome" required size="50" type="text" name="name" id="iname"></label>
+        </p>
+        <p>
+            <label for="iage">Idade: <input minlength="2" placeholder="Idade" required maxlength="3" size="50" type="text" name="age" id="iage"></label>
+        </p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+</html>
